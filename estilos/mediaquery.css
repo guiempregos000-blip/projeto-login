@@ -27,6 +27,11 @@ telas grandes acima de 1200px
         width: 70%;
         height: 100%;
     }
+
+    div.campo > input {
+        width: calc(100%);
+        transform: translateY(-20px);
+    }
 }
 
 @media screen and (min-width: 992px) {
